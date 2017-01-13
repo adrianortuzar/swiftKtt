@@ -32,8 +32,11 @@ struct Area {
             self.color = .red
             break
         }
+        
+        self.areaType = areaType
     }
     let name : String
     let order : Int
     let color : UIColor
+    let areaType : AreaType
 }

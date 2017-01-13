@@ -18,27 +18,27 @@ struct Race {
         case RaceType.human:
             
             self.name = "Human"
-            self.areas = (Area(.command), Area(.engineering), Area(.science))
+            self.areasMultiplier = (.command, .engineering, .science)
             
             break
         case RaceType.betazoid:
             
             self.name = "Betazoid"
-            self.areas = (Area(.engineering), Area(.command), Area(.science))
+            self.areasMultiplier = (.engineering, .command, .science)
             
             break
             
         case RaceType.vulcan:
             
             self.name = "Betazoid"
-            self.areas = (Area(.engineering), Area(.command), Area(.science))
+            self.areasMultiplier = (.engineering, .command, .science)
             
             break
         }
     }
     
     let name : String
-    let areas : (Area, Area, Area)
+    let areasMultiplier : (AreaType, AreaType, AreaType)
 }
 
 

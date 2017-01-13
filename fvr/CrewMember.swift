@@ -16,12 +16,12 @@ struct CrewMember {
     var multiplier : Int {
         get {
             
-            switch self.area.name {
-            case self.race.areas.0.name:
+            switch self.area.areaType {
+            case self.race.areasMultiplier.0:
                 return 3
-            case self.race.areas.1.name:
+            case self.race.areasMultiplier.1:
                 return 2
-            case self.race.areas.2.name:
+            case self.race.areasMultiplier.2:
                 return 1
             default:
                 return 0
