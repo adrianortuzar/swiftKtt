@@ -27,9 +27,14 @@ struct CrewMember {
                 return 0
             }
         }
-        set {
-            
+        set {}
+    }
+    
+    var valueIndex : Int {
+        get {
+            return self.multiplier * self.area.order
         }
+        set {}
     }
     
     init(id:Int, race: Race, area: Area) {

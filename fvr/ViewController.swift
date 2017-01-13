@@ -70,7 +70,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }()
         
         crewMembers.sort {
-            $0.area.order * $0.multiplier > $1.area.order * $1.multiplier
+            $0.valueIndex > $1.valueIndex
         }
         
         print("")
@@ -96,8 +96,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         // Configure the cell...
         var crewMember : CrewMember = self.crewMembers[indexPath.row]
-        
-        crewMember.multiplier = 5
         
         cell.id.text = String(crewMember.id)
         cell.area.text = crewMember.area.name
