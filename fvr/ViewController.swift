@@ -102,7 +102,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.id.text = String(crewMember.id)
         cell.area.text = crewMember.area.name
         cell.race.text = crewMember.race.name
-        cell.raceMultiplier.text = String(crewMember.multiplier * crewMember.area.order)
+        cell.raceMultiplier.text = String(crewMember.multiplier)
         
         cell.positionColor.backgroundColor = crewMember.area.color
         
@@ -110,7 +110,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 87.0
+        return 103.0
     }
 }
 

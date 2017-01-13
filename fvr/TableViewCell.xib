@@ -23,33 +23,23 @@
                         <rect key="frame" x="8" y="8" width="53" height="87"/>
                         <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="53" id="AdO-ku-J5U"/>
-                            <constraint firstAttribute="height" constant="87" id="Fj5-Ex-eEv"/>
+                            <constraint firstAttribute="width" constant="53" id="WYJ-6x-kn2"/>
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tr-v2-tfv">
                         <rect key="frame" x="69" y="8" width="192" height="21"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="21" id="fmc-1g-r0i"/>
-                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Race" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFc-xY-MqI">
                         <rect key="frame" x="69" y="73" width="192" height="21"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="21" id="GmG-gL-ZyB"/>
-                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNj-mQ-lAh">
                         <rect key="frame" x="69" y="41" width="192" height="21"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="21" id="chO-sZ-o2e"/>
-                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -57,7 +47,7 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X17-Cl-GDI">
                         <rect key="frame" x="269" y="7" width="43" height="87"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="43" id="NW1-dE-GVp"/>
+                            <constraint firstAttribute="width" constant="43" id="yKV-oD-poT"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -65,22 +55,22 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="RFc-xY-MqI" firstAttribute="leading" secondItem="GFg-WM-oUC" secondAttribute="trailing" constant="8" id="1Ad-k7-zyp"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="RFc-xY-MqI" secondAttribute="bottom" constant="0.5" id="2v4-Cz-1Jw"/>
-                    <constraint firstItem="2tr-v2-tfv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="4SJ-pi-06g"/>
-                    <constraint firstItem="GFg-WM-oUC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Fwy-UN-7z4"/>
-                    <constraint firstItem="X17-Cl-GDI" firstAttribute="leading" secondItem="WNj-mQ-lAh" secondAttribute="trailing" constant="8" id="HBo-3x-f0w"/>
-                    <constraint firstAttribute="bottom" secondItem="X17-Cl-GDI" secondAttribute="bottom" constant="8.5" id="IuM-Ro-cmE"/>
-                    <constraint firstItem="X17-Cl-GDI" firstAttribute="leading" secondItem="2tr-v2-tfv" secondAttribute="trailing" constant="8" id="KGJ-iY-gK4"/>
-                    <constraint firstItem="RFc-xY-MqI" firstAttribute="top" secondItem="WNj-mQ-lAh" secondAttribute="bottom" constant="11" id="N4r-dT-UpG"/>
-                    <constraint firstItem="WNj-mQ-lAh" firstAttribute="top" secondItem="2tr-v2-tfv" secondAttribute="bottom" constant="12" id="UmV-wn-M77"/>
-                    <constraint firstItem="WNj-mQ-lAh" firstAttribute="leading" secondItem="GFg-WM-oUC" secondAttribute="trailing" constant="8" id="a1p-wh-OIf"/>
-                    <constraint firstAttribute="trailing" secondItem="X17-Cl-GDI" secondAttribute="trailing" constant="8" id="azC-HH-hs1"/>
-                    <constraint firstItem="X17-Cl-GDI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="e2F-yJ-4cv"/>
-                    <constraint firstItem="2tr-v2-tfv" firstAttribute="leading" secondItem="GFg-WM-oUC" secondAttribute="trailing" constant="8" id="j6z-ha-tTl"/>
-                    <constraint firstAttribute="bottom" secondItem="GFg-WM-oUC" secondAttribute="bottom" constant="7.5" id="m8e-hb-yQG"/>
-                    <constraint firstItem="X17-Cl-GDI" firstAttribute="leading" secondItem="RFc-xY-MqI" secondAttribute="trailing" constant="8" id="wtE-LD-Uqf"/>
-                    <constraint firstItem="GFg-WM-oUC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="zbS-6h-ohd"/>
+                    <constraint firstItem="2tr-v2-tfv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="0Lq-kG-0TK"/>
+                    <constraint firstItem="RFc-xY-MqI" firstAttribute="leading" secondItem="GFg-WM-oUC" secondAttribute="trailing" constant="8" id="C6i-P9-d05"/>
+                    <constraint firstItem="X17-Cl-GDI" firstAttribute="leading" secondItem="2tr-v2-tfv" secondAttribute="trailing" constant="8" id="Jym-xU-MoV"/>
+                    <constraint firstItem="X17-Cl-GDI" firstAttribute="leading" secondItem="RFc-xY-MqI" secondAttribute="trailing" constant="8" id="Yz3-rp-qpW"/>
+                    <constraint firstItem="WNj-mQ-lAh" firstAttribute="leading" secondItem="GFg-WM-oUC" secondAttribute="trailing" constant="8" id="bDG-8g-ZMl"/>
+                    <constraint firstAttribute="trailing" secondItem="X17-Cl-GDI" secondAttribute="trailing" constant="8" id="dwq-CD-NWe"/>
+                    <constraint firstItem="X17-Cl-GDI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="ecr-KP-TN5"/>
+                    <constraint firstItem="GFg-WM-oUC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="fmI-wf-xeM"/>
+                    <constraint firstItem="RFc-xY-MqI" firstAttribute="top" secondItem="WNj-mQ-lAh" secondAttribute="bottom" constant="11" id="gtr-l3-ymf"/>
+                    <constraint firstAttribute="bottom" secondItem="GFg-WM-oUC" secondAttribute="bottom" constant="7.5" id="hVd-2C-WnW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="RFc-xY-MqI" secondAttribute="bottom" constant="0.5" id="lD3-oo-RtF"/>
+                    <constraint firstItem="WNj-mQ-lAh" firstAttribute="top" secondItem="2tr-v2-tfv" secondAttribute="bottom" constant="12" id="lWx-d8-jyM"/>
+                    <constraint firstAttribute="bottom" secondItem="X17-Cl-GDI" secondAttribute="bottom" constant="8.5" id="loP-Ju-7XD"/>
+                    <constraint firstItem="X17-Cl-GDI" firstAttribute="leading" secondItem="WNj-mQ-lAh" secondAttribute="trailing" constant="8" id="tm8-NF-YPX"/>
+                    <constraint firstItem="GFg-WM-oUC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="v1f-TW-7fn"/>
+                    <constraint firstItem="2tr-v2-tfv" firstAttribute="leading" secondItem="GFg-WM-oUC" secondAttribute="trailing" constant="8" id="zQh-3m-XgS"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
@@ -90,7 +80,7 @@
                 <outlet property="race" destination="RFc-xY-MqI" id="fNW-6i-UQB"/>
                 <outlet property="raceMultiplier" destination="X17-Cl-GDI" id="s8j-wV-R07"/>
             </connections>
-            <point key="canvasLocation" x="34" y="24.5"/>
+            <point key="canvasLocation" x="-9" y="1"/>
         </tableViewCell>
     </objects>
 </document>
