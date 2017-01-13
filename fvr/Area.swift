@@ -9,13 +9,31 @@
 import Foundation
 import UIKit
 
+enum AreaType {
+    case command, science, engineering
+}
+
 struct Area {
+    init(_ areaType: AreaType){
+        switch areaType {
+        case .command:
+            self.name = "Command"
+            self.order = 3
+            self.color = .yellow
+            break
+        case .science:
+            self.name = "Science"
+            self.order = 2
+            self.color = .blue
+            break
+        case .engineering:
+            self.name = "Engineering"
+            self.order = 1
+            self.color = .red
+            break
+        }
+    }
     let name : String
     let order : Int
     let color : UIColor
 }
-
-// create areas
-let command = Area.init(name: "Command", order: 3, color: UIColor.yellow)
-let science = Area.init(name: "Science", order: 2, color: UIColor.blue)
-let engineering = Area.init(name: "Engineering", order: 1, color: UIColor.red)

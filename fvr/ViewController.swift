@@ -36,13 +36,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     
                     switch random {
                     case 1:
-                        return human
+                        return Race(.human)
                     case 2:
-                        return Vulcan
+                        return Race(.vulcan)
                     case 0:
-                        return betazoid
+                        return Race(.betazoid)
                     default:
-                        return human
+                        return Race(.human)
                     }
                 }()
                 
@@ -51,13 +51,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     
                     switch random {
                     case 1:
-                        return command
+                        return Area(.command)
                     case 2:
-                        return engineering
+                        return Area(.engineering)
                     case 0:
-                        return science
+                        return Area(.science)
                     default:
-                        return command
+                        return Area(.command)
                     }
                 }()
                 

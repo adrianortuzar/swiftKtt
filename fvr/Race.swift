@@ -8,14 +8,37 @@
 
 import Foundation
 
+enum RaceType {
+    case human, betazoid, vulcan
+}
 
 struct Race {
-    let name : String?
+    init(_ raceType: RaceType) {
+        switch raceType {
+        case RaceType.human:
+            
+            self.name = "Human"
+            self.areas = (Area(.command), Area(.engineering), Area(.science))
+            
+            break
+        case RaceType.betazoid:
+            
+            self.name = "Betazoid"
+            self.areas = (Area(.engineering), Area(.command), Area(.science))
+            
+            break
+            
+        case RaceType.vulcan:
+            
+            self.name = "Betazoid"
+            self.areas = (Area(.engineering), Area(.command), Area(.science))
+            
+            break
+        }
+    }
+    
+    let name : String
     let areas : (Area, Area, Area)
 }
 
-let human : Race = Race.init(name: "Human", areas: (command, engineering, science))
 
-let betazoid : Race = Race.init(name: "Betazoid", areas: (engineering, command, science))
-
-let Vulcan : Race = Race.init(name: "Vulcan", areas: (science, engineering, command))
